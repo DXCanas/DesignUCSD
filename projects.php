@@ -58,16 +58,24 @@ Template Name: Projects
                             <h1>COGS 198 - DESIGN W/DON</h1>
                         </div>
                         <div class="short-project">
-                            <h1>DESIGN FOR AMERICA</h1>
+                            <div class="b-pic" id="dfa">
+                                <h1>DESIGN FOR AMERICA</h1>
+                            </div>
                         </div>
                         <div class="short-project">
-                            <h1>SD HACKS</h1>
+                            <div class="b-pic" id="sd-hacks">
+                                <h1>SD HACKS</h1>
+                            </div>
                         </div>
                         <div class="short-project">
-                            <h1>STUDENT FOUNDATON</h1>
+                            <div class="b-pic" id="student-foundation">
+                                <h1>STUDENT FOUNDATON</h1>
+                            </div>
                         </div>
                         <div class="short-project">
-                            <h1>PICKLE PROBLEM PRODUCTIONS</h1>
+                            <div class="b-pic" id="pickle-problems">
+                                <h1>PICKLE PROBLEM PRODUCTIONS</h1>
+                            </div>
                         </div>
                     </div>
                 </main>
