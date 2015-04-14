@@ -70,9 +70,9 @@ $base-text-color:                                       #333333;
 $secondary-text-color:                                  #555555;
 
 // Links Colors
-$base-link-color:                                       #fff;
-$hover-link-color:                                      darken($base-link-color, 10%);
-$focus-link-color:                                      darken($base-link-color, 20%);
+$base-link-color:                                       #1f1f1f;
+$hover-link-color:                                      lighten($base-link-color, 10%);
+$focus-link-color:                                      lighten($base-link-color, 20%);
 
 $disable-link-color:                                    #999999;
 

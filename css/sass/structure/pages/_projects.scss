@@ -1,0 +1,62 @@
+/*****************************************************************
+    Splash Page
+*****************************************************************/
+.wrapper-projects {
+    font-family: $base-font-family;
+    font-size: $base-font-size;
+    background: $base-background-color;
+    line-height: 1.4;
+    display: block;
+    background-repeat: no-repeat;
+    height: 75em;
+    overflow: hidden;
+    max-height: 2000px;
+}
+.project-grid {
+    width: 70%;
+    float: left;
+    margin: 0 auto;
+    height: 100%;
+    text-align: center;
+    padding: 9em 1em;
+    .long-project {
+        float: left;
+        margin: 0 0 3% 5%;
+        width: 85%;
+        height: 15em;
+        background-image: url("img/cogs198banner.jpg");
+        background-size: cover;
+        display: table;
+        background-repeat: no-repeat;
+        -webkit-filter: grayscale(100%);
+        -moz-filter: grayscale(100%);
+        -ms-filter: grayscale(100%);
+        -o-filter: grayscale(100%);
+        filter: grayscale(100%);
+        filter: gray; /* IE 6-9 */
+        
+    }
+    .short-project {
+        width: 40%;
+        height: 15em;
+        margin-bottom: 5%;
+        margin-left: 5%;
+        float: left;
+        background-image: url("img/cogs198banner.jpg");
+        background-size: cover;
+        display: table;
+        background-repeat: no-repeat;
+        -webkit-filter: grayscale(100%);
+        -moz-filter: grayscale(100%);
+        -ms-filter: grayscale(100%);
+        -o-filter: grayscale(100%);
+        filter: grayscale(100%);
+        filter: gray; /* IE 6-9 */
+    }
+    h1 {
+        display:table-cell; 
+        vertical-align:middle;
+        font-weight: 800;
+        color: white;
+    }
+}

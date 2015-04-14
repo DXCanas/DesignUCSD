@@ -1,9 +1,6 @@
 /*****************************************************************
     Splash Page
 *****************************************************************/
-.wrapper-overlay {
-}
-
 .wrapper-splash {
     font-family: $base-font-family;
     font-size: $base-font-size;
@@ -22,6 +19,13 @@
     -o-filter: grayscale(1);
     -ms-filter: grayscale(1);
     filter: grayscale(1);
+    .nav {
+        li {
+            a {
+                color: white;
+            }
+        }   
+    }
 }
 .splash-message {
     color: white;
