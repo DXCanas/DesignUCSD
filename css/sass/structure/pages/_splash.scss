@@ -1,0 +1,42 @@
+/*****************************************************************
+    Splash Page
+*****************************************************************/
+.wrapper-overlay {
+}
+
+.wrapper-splash {
+    font-family: $base-font-family;
+    font-size: $base-font-size;
+    background: $base-background-color;
+    line-height: 1.4;
+    
+    background-image: url("img/temp-background.jpg");
+    background-size: cover;
+    display: block;
+    background-repeat: no-repeat;
+    height: 75em;
+    overflow: hidden;
+    max-height: 2000px;
+    -webkit-filter: grayscale(1);
+    -moz-filter: grayscale(1);
+    -o-filter: grayscale(1);
+    -ms-filter: grayscale(1);
+    filter: grayscale(1);
+}
+.splash-message {
+    color: white;
+    margin-top: 6%;
+    h1 {
+        font-weight: 800;
+        font-size: 15em;
+        padding: 0;
+        margin: 0;
+        margin-bottom: -4%;
+    }
+    h3 {
+        font-weight: 400;
+        font-size: 3em;
+        padding: 0;
+        margin: 0;
+    }
+}

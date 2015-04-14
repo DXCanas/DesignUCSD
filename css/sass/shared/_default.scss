@@ -1,0 +1,54 @@
+
+/*****************************************************************
+    Default
+*****************************************************************/
+
+* {
+    @include box-sizing(border-box);
+}
+
+html {
+    font-size: 62.5%;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+}
+
+a {
+    color: $base-link-color;
+    text-decoration: none;
+    @include transition(all 0.15s ease-in);
+
+    &:hover {
+        color: darken($base-link-color, 10%);
+    }
+}
+
+h1 {
+    @include font-size($h1-size);
+}
+
+h2 {
+    @include font-size($h2-size);
+}
+
+h3 {
+    @include font-size($h3-size);
+}
+
+h4 {
+    @include font-size($h4-size);
+}
+
+h5 {
+    @include font-size($h5-size);
+}
+
+h6 {
+    @include font-size($h6-size);
+}
+
+#{headings()} {
+    font-weight: normal; // Output: h1, h2, h3, h4, h5, h6 { font-weight: normal; }
+}

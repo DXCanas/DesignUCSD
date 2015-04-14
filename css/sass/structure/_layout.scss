@@ -1,0 +1,8 @@
+
+/*****************************************************************
+    Layout Global
+*****************************************************************/
+
+.container {
+    @include container($total-columns, $small-tablet, $tablet, $computer);
+}

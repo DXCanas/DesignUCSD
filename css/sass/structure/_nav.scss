@@ -1,0 +1,26 @@
+/*****************************************************************
+    Navigation
+*****************************************************************/
+
+.nav {
+    width: 80%;
+    margin: 1% 0 0 1%;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    display: block;
+    .page_item {
+        font-size: $font-size-2;
+        font-weight: 600;
+        text-align: right;
+        display: block;
+        padding: 5px;
+        a {
+            text-transform: uppercase;
+            color: $base-link-color;
+            &:hover {
+                color: $hover-link-color;   
+            }
+        } 
+    }
+}
